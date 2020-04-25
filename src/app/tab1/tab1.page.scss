@@ -1,0 +1,20 @@
+p {
+  margin-bottom: 5%;
+}
+
+a:link,
+a:visited {
+  margin-right: 5%;
+  background-color: #0ebfe9;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover,
+a:active {
+  background-color: #e5e5e5;
+  color: #0ebfe9;
+}
