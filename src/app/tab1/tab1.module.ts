@@ -1,3 +1,5 @@
+import { AgmCoreModule } from '@agm/core';
+
 import { IonicModule } from '@ionic/angular';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
@@ -13,7 +15,10 @@ import { Tab1PageRoutingModule } from './tab1-routing.module';
     CommonModule,
     FormsModule,
     ExploreContainerComponentModule,
-    Tab1PageRoutingModule
+    Tab1PageRoutingModule,
+    AgmCoreModule.forRoot({
+      apiKey: 'AIzaSyAGyEZtlqAdL_LYq90zAxTyHCVe-D-TwOo'
+    })
   ],
   declarations: [Tab1Page]
 })
